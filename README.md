@@ -1,7 +1,6 @@
 # Sage Gradio Runner
 
-This repo explores how articulating an "app as a function" can enable same code to be transparently run in multiple useful contexts. The code doesn't work in
-any usual sense of the word... it's more of a "stream of consciousness" sketch of the core ideas.
+This repo explores how articulating an "app as a function" can enable a single app to be transparently run in multiple useful contexts.
 
 This example uses [Sage](https://sagecontinuum.org) and [Gradio](https://gradio.app) as a hypothetical example where someone may want to:
 
@@ -9,6 +8,8 @@ This example uses [Sage](https://sagecontinuum.org) and [Gradio](https://gradio.
 2. Deploy their app without having to write all the boilerplate of sampling an image or sensor, ideally allowing for just "plugging in" standard inputs.
 
 ## Try it out
+
+_Warning! The code doesn't work in any usual sense of the word... it's more of a "stream of consciousness" sketch of the core ideas._
 
 Install dependencies:
 
