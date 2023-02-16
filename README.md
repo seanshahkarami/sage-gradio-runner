@@ -16,13 +16,14 @@ Install dependencies:
 pip3 install -r requirements.txt
 ```
 
-Run the app with Gradio to get a UI view:
+Run the app with Gradio to get a UI view. This would be cool for quickly trying out the app or even hosting it to be used as an API:
 
 ```sh
 gradio myapp.py
 ```
 
-Run app with CLI runner with default webcam input:
+Run app with CLI runner with default webcam input. This is closer to how an app would be run on a Sage node. Notice that it's still
+the same app, just with a new interface.
 
 ```sh
 python3 runner.py myapp:demo
